@@ -1,0 +1,66 @@
+.calendar-box{
+    width: 245px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+.calendar-head{
+    background: #666;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.calendar-head .prevMonth{
+    float: left;
+    cursor: pointer;
+}
+.calendar-head .nextMonth{
+    float: right;
+    cursor: pointer;
+}
+.calendar-body{
+    background: #f9f9f9;
+}
+
+.calendar-weekdays span{
+ display: inline-block;
+ width: 35px;
+ padding: 8px 0;
+ text-align: center;
+}
+.calendar-row{
+    color: #666;
+}
+.calendar-row:after{
+    display: block;
+    clear:both;
+    height:0;
+    content: "";
+    visibility: hidden;
+    overflow:hidden;
+}
+.calendar-row div{
+    display: block;
+    width: 35px;
+    padding: 5px 0;
+    float: left;
+}
+.calendar-row div.calendar-date{ 
+    text-align: center;
+    cursor: pointer;
+}
+.calendar-row div.calendar-date span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+}
+.calendar-row div.calendar-date span:hover{
+    background: #eee;
+}
+.calendar-row div.calendar-date span.calendar-date-on{
+    background: #FF6F6F;
+    color: #fff;
+}
