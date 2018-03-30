@@ -13,7 +13,15 @@
   "keywords": [
     "calendar"
   ],
-  "author": "hekibun",
+  "author": "hekibun <hekibun@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekiheki/react-small-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hekiheki/react-small-calendar/issues"
+  },
+  "homepage": "https://github.com/hekiheki/react-small-calendar#readme",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.6.1",
