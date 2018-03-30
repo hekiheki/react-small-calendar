@@ -10,13 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": ["calendar"],
+  "keywords": [
+    "calendar"
+  ],
   "author": "hekibun",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

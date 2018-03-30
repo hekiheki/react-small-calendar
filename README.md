@@ -36,7 +36,6 @@
 
 ```
 	npm install react-small-calendar
-
 ```
 
 * 使用
